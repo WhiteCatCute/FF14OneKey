@@ -14,3 +14,7 @@
 /micon 武士 classjob
 /hotbar set 刃风 1 1
 /hotbar set 风雅 1 2
+
+/micon 战士 classjob
+/hotbar set 重劈 1 1
+/hotbar set 超压斧 1 2
