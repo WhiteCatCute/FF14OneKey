@@ -1,20 +1,21 @@
 复位宏键位仅供参考
 
-/micon 召唤师 classjob
-/hotbar set 毁荡 1 1
-/hotbar set 迸裂 1 2
+/micon 战士 classjob
+/hotbar set 重劈 1 1
+/hotbar set 超压斧 1 2
 
-/micon 舞者 classjob
-/hotbar set 瀑泻 1 1
-/hotbar set 风车 1 2
-/hotbar set 进攻之探戈 1 5
-/hotbar set 标准舞步 1 6
-/hotbar set 技巧舞步 1 7
+/micon 占星术士 classjob
+/hotbar set 抽卡 3 1
+/hotbar set 小奥秘卡 3 3
 
 /micon 武士 classjob
 /hotbar set 刃风 1 1
 /hotbar set 风雅 1 2
 
-/micon 战士 classjob
-/hotbar set 重劈 1 1
-/hotbar set 超压斧 1 2
+/micon 舞者 classjob
+/hotbar set 瀑泻 1 1
+/hotbar set 风车 1 2
+
+/micon 召唤师 classjob
+/hotbar set 毁荡 1 1
+/hotbar set 迸裂 1 2
