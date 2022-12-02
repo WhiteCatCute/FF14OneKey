@@ -1,11 +1,11 @@
 <?xml version="1.0"?>
 <TriggernometryExport Version="1">
-  <ExportedFolder Id="a9a884b5-97ee-4a65-9237-e787c391e839" Name="一键连击宏（键位修改后，切换职业方可生效）" Enabled="true">
+  <ExportedFolder Id="d0d10c4d-1b1e-46d0-8647-f7e262b1c016" Name="一键连击宏（键位修改后，切换职业方可生效）" Enabled="true">
     <Folders>
-      <Folder Id="b233507a-7397-43a5-b165-a91c4784fa1b" Name="→展开此处修改键位←" Enabled="true">
+      <Folder Id="e072042a-0f2f-4721-a611-805ce9c54f83" Name="→展开此处修改键位←" Enabled="true">
         <Folders />
         <Triggers>
-          <Trigger Enabled="true" Name="01战士 →双击此处修改键位←" Id="6f1150ab-851f-4e09-8b08-83f9ad286cb5" RegularExpression="" PrevActions="Interrupt">
+          <Trigger Enabled="true" Name="01战士 →双击此处修改键位←" Id="328f352f-d1c9-457c-acf8-29cabc59e9e6" RegularExpression="" PrevActions="Interrupt">
             <Actions>
               <Action OrderNumber="1" VariableOp="SetString" VariableName="战士单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
                 <Condition Enabled="false" Grouping="Or" />
@@ -18,8 +18,9 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="07占星 →双击此处修改键位←" Id="59e12ff9-cf0b-4fb6-a158-86a9c2d402b7" RegularExpression="" PrevActions="Interrupt">
+          <Trigger Enabled="true" Name="07占星 →双击此处修改键位←" Id="55646cce-2290-4192-9e83-b2babf033bf4" RegularExpression="" PrevActions="Interrupt">
             <Actions>
               <Action OrderNumber="1" VariableOp="SetString" VariableName="占星抽卡" VariableExpression="3 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="抽卡-重抽 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
                 <Condition Enabled="false" Grouping="Or" />
@@ -29,8 +30,9 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="18召唤 →双击此处修改键位←" Id="e5a57c9c-3363-47f5-b99a-d50123a4a8ca" RegularExpression="" PrevActions="Interrupt">
+          <Trigger Enabled="true" Name="18召唤 →双击此处修改键位←" Id="f844a3ed-a3cf-4079-8396-d38490de31d3" RegularExpression="" PrevActions="Interrupt">
             <Actions>
               <Action OrderNumber="1" VariableOp="SetString" VariableName="召唤单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
                 <Condition Enabled="false" Grouping="Or" />
@@ -76,8 +78,9 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="12武士 →双击此处修改键位←" Id="1ccfa4d8-9069-4692-a256-3343432ae640" RegularExpression="" PrevActions="Interrupt">
+          <Trigger Enabled="true" Name="12武士 →双击此处修改键位←" Id="22267bbc-15c7-4fc5-a8f4-bd68d386f219" RegularExpression="" PrevActions="Interrupt">
             <Actions>
               <Action OrderNumber="1" VariableOp="SetString" VariableName="武士单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
                 <Condition Enabled="false" Grouping="Or" />
@@ -108,8 +111,9 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
-          <Trigger Enabled="true" Name="16舞者 →双击此处修改键位←" Id="4ec9b079-d193-400a-b05a-720409b77c23" RegularExpression="" PrevActions="Interrupt">
+          <Trigger Enabled="true" Name="16舞者 →双击此处修改键位←" Id="6a7c6884-3bc2-4a73-bc2d-d17812f19b28" RegularExpression="" PrevActions="Interrupt">
             <Actions>
               <Action OrderNumber="1" VariableOp="SetString" VariableName="舞者单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
                 <Condition Enabled="false" Grouping="Or" />
@@ -143,19 +147,92 @@
               </Action>
             </Actions>
             <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="13镰刀 →双击此处修改键位←" Id="25ca4f0e-fc2b-4ac5-9197-7d8d6e788386" RegularExpression="" PrevActions="Interrupt">
+            <Actions>
+              <Action OrderNumber="1" VariableOp="SetString" VariableName="镰刀单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableOp="SetString" VariableName="镰刀群体" VariableExpression="1 2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="群体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" VariableOp="SetString" VariableName="镰刀单体1" VariableExpression="切割" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" VariableOp="SetString" VariableName="镰刀单体2" VariableExpression="增盈切割" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" VariableOp="SetString" VariableName="镰刀单体3" VariableExpression="地狱切割" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" VariableOp="SetString" VariableName="镰刀群体1" VariableExpression="旋转钐割" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="7" VariableOp="SetString" VariableName="镰刀群体2" VariableExpression="噩梦钐割" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="8" VariableOp="SetNumeric" VariableName="镰刀单体2等级" VariableExpression="5" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="9" VariableOp="SetNumeric" VariableName="镰刀单体3等级" VariableExpression="25" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="10" VariableOp="SetNumeric" VariableName="镰刀群体2等级" VariableExpression="45" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
+          </Trigger>
+          <Trigger Enabled="true" Name="00模板 →双击此处修改键位←" Id="fbd2a9f3-0afd-46f0-8b84-daba30595a17" RegularExpression="" PrevActions="Interrupt">
+            <Actions>
+              <Action OrderNumber="1" VariableOp="SetString" VariableName="模板单体" VariableExpression="1 1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="单体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="2" VariableOp="SetString" VariableName="模板群体" VariableExpression="1 2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" Description="群体 键位修改请双击此处  数据格式：x y  数据含义：第x号热键栏的第y号键位" DescriptionOverride="True">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="3" VariableOp="SetString" VariableName="模板单体1" VariableExpression="重斩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="4" VariableOp="SetString" VariableName="模板单体2" VariableExpression="吸收斩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="5" VariableOp="SetString" VariableName="模板单体3" VariableExpression="噬魂斩" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="6" VariableOp="SetString" VariableName="模板群体1" VariableExpression="释放" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="7" VariableOp="SetString" VariableName="模板群体2" VariableExpression="刚魂" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="8" VariableOp="SetNumeric" VariableName="模板单体2等级" VariableExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="9" VariableOp="SetNumeric" VariableName="模板单体3等级" VariableExpression="26" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+              <Action OrderNumber="10" VariableOp="SetNumeric" VariableName="模板群体2等级" VariableExpression="40" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
+                <Condition Enabled="false" Grouping="Or" />
+              </Action>
+            </Actions>
+            <Condition Enabled="false" Grouping="Or" />
+            <Conditions />
           </Trigger>
         </Triggers>
       </Folder>
-      <Folder Id="6281cc79-829c-4db6-a43c-5bf41154547d" Name="1高贵的蓝职" Enabled="true">
+      <Folder Id="60aabdf9-6cad-446b-827b-e8aad76a03a5" Name="1高贵的蓝职" Enabled="true">
         <Folders>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="1048576" Id="790530a1-0a3d-4a3b-803d-3ac0d821e032" Name="战士" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="1048576" Id="36cde7a6-4eb0-4c0a-a280-ac0b87201fdc" Name="战士" Enabled="true">
             <Folders>
-              <Folder Id="adeb32af-6b92-4dc8-b0e8-0d4bb4e24c24" Name="单体" Enabled="true">
+              <Folder Id="e284fead-30c5-4d0f-9d5f-e9b14e2913bc" Name="单体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="1重劈" Id="b5104bf5-1a6e-43db-bf44-27829749a24b" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:重劈" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1重劈" Id="802b1d5e-e559-4fc1-9c85-62a1b2e83726" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:重劈" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="324583d7-ca78-43ee-a4b4-e71e04d79733" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="1e53ea47-3777-46a0-8b07-73a82eab060f" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;超压斧&quot; ${var:战士群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -175,10 +252,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2凶残裂" Id="4c3709da-51bc-472d-8fda-933932323af0" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:凶残裂" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2凶残裂" Id="bb107781-75bb-41b0-810d-8768d036e654" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:凶残裂" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="b5104bf5-1a6e-43db-bf44-27829749a24b" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="802b1d5e-e559-4fc1-9c85-62a1b2e83726" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;重劈&quot; ${var:战士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -207,10 +285,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3暴风碎|暴风斩" Id="b497ba93-42c8-4481-9296-0ed1e5a465e1" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(暴风碎|暴风斩)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="3暴风碎|暴风斩" Id="ec1aa9df-3ccb-405f-8cb8-d3edb8b61be5" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(暴风碎|暴风斩)" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="4c3709da-51bc-472d-8fda-933932323af0" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="bb107781-75bb-41b0-810d-8768d036e654" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;重劈&quot; ${var:战士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -220,18 +299,19 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="26e5a1b6-2879-405e-8124-8b38d7157f68" Name="群体" Enabled="true">
+              <Folder Id="b6f8861b-5053-4b26-9597-236282f057ff" Name="群体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="1超压斧" Id="324583d7-ca78-43ee-a4b4-e71e04d79733" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:超压斧" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1超压斧" Id="1e53ea47-3777-46a0-8b07-73a82eab060f" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:超压斧" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="b5104bf5-1a6e-43db-bf44-27829749a24b" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="802b1d5e-e559-4fc1-9c85-62a1b2e83726" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="4c3709da-51bc-472d-8fda-933932323af0" ActionType="Trigger">
+                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="bb107781-75bb-41b0-810d-8768d036e654" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;重劈&quot; ${var:战士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -251,10 +331,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2秘银暴风" Id="4a657509-fc1e-4736-ac9a-712df6c71c0a" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:秘银暴风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2秘银暴风" Id="4490e898-5cf9-4d53-b85a-44bcbeda6aa9" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:秘银暴风" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="324583d7-ca78-43ee-a4b4-e71e04d79733" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="1e53ea47-3777-46a0-8b07-73a82eab060f" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;超压斧&quot; ${var:战士群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -264,13 +345,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="ca92aa12-bff2-4490-9d95-d6b52b93e84d" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
+              <Folder Id="d007c871-5c36-4afc-a9ca-82f4919836d7" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="原初的解放" Id="9cbab660-e00a-4335-b333-149fb85b7bd3" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:原初的解放" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="原初的解放" Id="921f99a3-2073-42c4-b76b-ac99127138fe" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:原初的解放" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="解放" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="55000">
                         <Condition Enabled="false" Grouping="Or" />
@@ -279,8 +361,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="动乱|群山隆起" Id="1141887c-8656-45e4-a122-2000411b7f3b" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(动乱|群山隆起)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="动乱|群山隆起" Id="929defc2-e1cf-4794-981f-803e30e9db03" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(动乱|群山隆起)" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="动乱" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="25000">
                         <Condition Enabled="false" Grouping="Or" />
@@ -289,8 +372,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="false" Name="猛攻" Id="4867b4fa-5f0d-42c8-96cf-df89b509ced5" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:猛攻" PrevActions="Interrupt">
+                  <Trigger Enabled="false" Name="猛攻" Id="bbed4c76-763f-4232-86cb-2bbd81b3c438" RegularExpression="^.{14} [^:]+:.{8}:(?&lt;player&gt;[^:]+?):[^:]+:猛攻" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="猛攻" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="30000">
                         <Condition Enabled="false" Grouping="Or" />
@@ -299,13 +383,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="c7633da0-e428-4513-8636-dd5114358fd3" Name="var" Enabled="true">
+              <Folder Id="ba14019c-e5dd-44b1-967d-64cace230b59" Name="var" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="战场风暴" Id="f79b0045-a13d-4e8d-84a9-7c24f852e377" RegularExpression="^.{14} StatusAdd 1A:[^:]+:战场风暴:(?&lt;time&gt;[^:]+?):.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="战场风暴" Id="7c158349-ff64-4437-b5c6-8d0ccd20fc63" RegularExpression="^.{14} StatusAdd 1A:[^:]+:战场风暴:(?&lt;time&gt;[^:]+?):.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="战场风暴" VariableExpression="${time}*1000+${_timestampms}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -314,6 +399,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -323,14 +409,14 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="823a5d75-47a0-4685-8bff-33dc38bfc3f4" Name="2优雅的绿职" Enabled="true">
+      <Folder Id="f54ddce2-9931-40c3-83ff-3f52b2514aa9" Name="2优雅的绿职" Enabled="true">
         <Folders>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="4294967296" Id="8e3c02db-305e-4ab9-97e8-9c45a61b2eff" Name="占星" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="4294967296" Id="99f976df-894a-41d2-acd2-a7175f2a907d" Name="占星" Enabled="true">
             <Folders>
-              <Folder Id="900105e0-c9ef-4c99-b973-5689aa9db8b6" Name="抽卡-重抽" Enabled="true">
+              <Folder Id="8e8d8377-e524-4c79-acf2-30079f49c32c" Name="抽卡-重抽" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="重抽预备 on" Id="1c6e218b-07b0-46b1-864a-14810665f7bb" RegularExpression="^.{14} StatusAdd 1A:[^:]+:重抽预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="重抽预备 on" Id="0c7401b8-fbf1-461b-9f78-b17f8e66c725" RegularExpression="^.{14} StatusAdd 1A:[^:]+:重抽预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 重抽 ${var:占星抽卡}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -339,8 +425,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="重抽预备 off" Id="583b7d7f-4f48-4a5d-bf6c-5532f94c7484" RegularExpression="^.{14} StatusRemove 1E:[^:]+:重抽预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="重抽预备 off" Id="b15adc16-65ee-46ac-bc8a-a9736bdca510" RegularExpression="^.{14} StatusRemove 1E:[^:]+:重抽预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 抽卡 ${var:占星抽卡}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -349,13 +436,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="8d54b859-ed57-4902-b6ef-17875c7a13e1" Name="小奥秘卡-出王冠卡" Enabled="true">
+              <Folder Id="f54d38ff-9f13-488a-b423-232c595fbd9c" Name="小奥秘卡-出王冠卡" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="王冠之(贵妇|领主) off" Id="c582c498-c475-4ad2-8823-b5d9accc11d1" RegularExpression="^.{14} StatusRemove 1E:[^:]+:王冠之(贵妇|领主)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="王冠之(贵妇|领主) off" Id="9960b260-11e4-4767-b456-5b21f315df5c" RegularExpression="^.{14} StatusRemove 1E:[^:]+:王冠之(贵妇|领主)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 小奥秘卡 ${var:占星小奥秘}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -364,8 +452,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="王冠之(贵妇|领主) on" Id="bb4d132a-f502-4624-a11e-a44816f82de6" RegularExpression="^.{14} StatusAdd 1A:[^:]+:王冠之(贵妇|领主)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="王冠之(贵妇|领主) on" Id="958014ef-918e-4a02-a7dd-06fb74e0a3e6" RegularExpression="^.{14} StatusAdd 1A:[^:]+:王冠之(贵妇|领主)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 出王冠卡 ${var:占星小奥秘}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -374,13 +463,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="71be9698-9ec6-4ddc-80c4-c793744992b6" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
+              <Folder Id="881e6dc4-5dea-4e4b-bb0a-0a947f9abae5" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="(世界树之干|河流神之瓶|建筑神之塔)（抽卡）" Id="b7995a10-0fbf-490b-9ba9-740093701b0f" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(世界树之干|河流神之瓶|建筑神之塔)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="(世界树之干|河流神之瓶|建筑神之塔)（抽卡）" Id="8fd6f863-58c6-4b13-99d9-5268ddbceb65" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(世界树之干|河流神之瓶|建筑神之塔)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="远程卡" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                         <Condition Enabled="false" Grouping="Or" />
@@ -389,8 +479,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="(太阳神之衡|放浪神之箭|战争神之枪)（抽卡）" Id="65b195d2-f00d-41f6-ac7d-49ff440ed27f" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(太阳神之衡|放浪神之箭|战争神之枪)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="(太阳神之衡|放浪神之箭|战争神之枪)（抽卡）" Id="d3a80933-55c1-4438-be0f-26b878d7694e" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(太阳神之衡|放浪神之箭|战争神之枪)（抽卡）:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="近战卡" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS">
                         <Condition Enabled="false" Grouping="Or" />
@@ -399,6 +490,7 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -408,14 +500,14 @@
         </Folders>
         <Triggers />
       </Folder>
-      <Folder Id="0b130673-f6a6-4032-b57b-3c9f15411ea6" Name="3低贱的红职" Enabled="true">
+      <Folder Id="61730836-1e1b-4849-97b9-5cc98b6cda4f" Name="3低贱的红职" Enabled="true">
         <Folders>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="67108864" Id="d3ae9d6d-27e2-4f65-9d26-8fcd5aca521a" Name="召唤（即刻和灼热之光建议手动，也可勾选自动）" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="67108864" Id="9d5b00f5-7dc2-48c7-827e-3af8272f75cf" Name="召唤（即刻和灼热之光建议手动，也可勾选自动）" Enabled="true">
             <Folders>
-              <Folder Id="95c2f842-975e-47c6-9fe5-2b4df1232b03" Name="0 tips-使用前请先阅读" Enabled="true">
+              <Folder Id="447e0b1f-7563-4dec-9772-661813e16db3" Name="0 tips-使用前请先阅读" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="0 灼热之光" Id="8d5463a7-d6a7-488f-b7fd-b56ceb43d946" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:灼热之光" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="0 灼热之光" Id="519bc6d6-6d60-4233-828b-ab39d9984040" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:灼热之光" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="灼热之光" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -427,8 +519,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="0 溃烂爆发|痛苦核爆" Id="6d11531f-dca0-4cf1-aee3-60293cb3fb07" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(溃烂爆发|痛苦核爆)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="0 溃烂爆发|痛苦核爆" Id="f5c74cf7-a8e4-414d-a859-565c323dceec" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(溃烂爆发|痛苦核爆)" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="豆子" VariableExpression="${var:豆子}-1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable" ExecutionDelayExpression="20">
                         <Condition Enabled="false" Grouping="Or" />
@@ -437,8 +530,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="0 能量吸收|能量抽取" Id="837c3f3d-b69c-4f39-9e99-bbf0eef96945" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(能量吸收|能量抽取)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="0 能量吸收|能量抽取" Id="d22c5746-cf90-4c9e-81fc-6fa83e717c62" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(能量吸收|能量抽取)" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="豆子" VariableExpression="2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -458,40 +552,41 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="ec2f77cb-d67c-4b09-bcd8-2597c197a582" Name="1 群怪循环有低概率会出错" Enabled="true">
+              <Folder Id="84e973a1-ef2b-4c57-98ce-02ddca1b02ff" Name="1 群怪循环有低概率会出错" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="8243cbbb-5624-461e-9eae-079f949d1cd0" Name="2 三神召唤顺序可自己手动释放来进行调整" Enabled="true">
+              <Folder Id="5b9bd5d8-e53d-42b2-9b3c-2284f7b75aae" Name="2 三神召唤顺序可自己手动释放来进行调整" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="3ef4f736-b54c-41d8-8886-2928fd123ccb" Name="3 三神状态下的宝石耀和星极超流顺序可自行手动释放调整" Enabled="true">
+              <Folder Id="a01bddab-570e-47e1-8b07-53396dafe1bf" Name="3 三神状态下的宝石耀和星极超流顺序可自行手动释放调整" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="8f31132f-574e-4fd5-840f-840521539879" Name="4 输出能力技都是延迟1秒自动插入gcd释放" Enabled="true">
+              <Folder Id="3220654f-beb7-4f31-b640-d15719f4dfd0" Name="4 输出能力技都是延迟1秒自动插入gcd释放" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="b8ed06cf-3927-484d-af07-0bac600de562" Name="5 如果自己手动插入能力技，可能会卡掉自动插入，需自行手动补上" Enabled="true">
+              <Folder Id="a5c9f5cb-6654-4c01-b625-b34c993af213" Name="5 如果自己手动插入能力技，可能会卡掉自动插入，需自行手动补上" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="50f94df6-5c90-4822-a032-416588ddc8d3" Name="0.1 建议游戏内编写键位复位宏，以处理异常状况" Enabled="true">
+              <Folder Id="f98ebd30-c3e3-41dd-b58e-f24678fb9daa" Name="0.1 建议游戏内编写键位复位宏，以处理异常状况" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
-              <Folder Id="4034da74-1801-4551-8a35-b522821fcff3" Name="0.2 除了被本插件占用的键位外，其他键位建议摆上召唤所有技能，以方便处理异常情况" Enabled="true">
+              <Folder Id="bd71a4f1-0ba4-4dbb-a84f-18b1c2e4d92a" Name="0.2 除了被本插件占用的键位外，其他键位建议摆上召唤所有技能，以方便处理异常情况" Enabled="true">
                 <Folders />
                 <Triggers />
               </Folder>
             </Folders>
             <Triggers>
-              <Trigger Enabled="true" Name="2 以太蓄能|龙神附体|龙神召唤|不死鸟召唤" Id="35841c94-20a7-4b0e-a989-d50513e229b6" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(以太蓄能|龙神附体|龙神召唤|不死鸟召唤)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="2 以太蓄能|龙神附体|龙神召唤|不死鸟召唤" Id="b671d1c7-b1e4-4f51-8d0c-ce9ff75479d8" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(以太蓄能|龙神附体|龙神召唤|不死鸟召唤)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" VariableName="火神预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
@@ -546,8 +641,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="1 毁灭|毁坏|毁荡|迸裂|三重灾祸" Id="f2ae28fd-d1f7-4144-a9ef-a27f0302bbf7" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡|迸裂|三重灾祸)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="1 毁灭|毁坏|毁荡|迸裂|三重灾祸" Id="1163adea-f2a6-4f55-8f41-746836ad5fbd" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡|迸裂|三重灾祸)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 以太蓄能 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="Or">
@@ -563,8 +659,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="4 黄宝石召唤|土神召唤|土神召唤II" Id="6ccfb4da-4bc1-41e1-9711-6890d890b043" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石召唤|土神召唤|土神召唤II)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="4 黄宝石召唤|土神召唤|土神召唤II" Id="d6b4d6f4-d2a5-4014-8207-435009b7156e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石召唤|土神召唤|土神召唤II)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" VariableName="土神预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
@@ -588,8 +685,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="3 自动-星极核爆|炼狱之炎" Id="a0de1a4f-0881-4d33-ad23-d56cdafb1521" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(星极核爆|炼狱之炎)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="3 自动-星极核爆|炼狱之炎" Id="dee6500a-2188-4cac-89fa-faefa30799c3" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(星极核爆|炼狱之炎)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 能量抽取" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="1000" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="Or">
@@ -610,8 +708,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="4 绿宝石召唤|风神召唤|风神召唤II" Id="b0d63de2-5516-4d6d-a441-f0e3045b3fcb" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石召唤|风神召唤|风神召唤II)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="4 绿宝石召唤|风神召唤|风神召唤II" Id="d9031401-733e-4f56-b0b3-365c4b57fe5d" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石召唤|风神召唤|风神召唤II)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" VariableName="风神预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
@@ -640,8 +739,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="4 红宝石召唤|火神召唤|火神召唤II" Id="a36d157d-9ea3-48e3-8a8b-20b3c296d607" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤II)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="4 红宝石召唤|火神召唤|火神召唤II" Id="dcc98f2b-6bc9-48da-a4b3-19439bb889cd" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤II)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" VariableName="火神预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                     <Condition Enabled="false" Grouping="Or" />
@@ -670,8 +770,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="6 毁绝" Id="543b582c-f92e-4706-b5d6-8bb0a3929bde" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:毁绝" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="6 毁绝" Id="5a2f372a-ab3d-4813-baf5-7c8784ff5fe7" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:毁绝" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 毁灭 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="false" Grouping="Or" />
@@ -686,8 +787,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="5 绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变" Id="76e1566d-46e9-4812-9f90-e29cae24fc23" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="5 绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变" Id="66dda464-4811-46fb-8277-3b56b2200959" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(绿宝石毁灭|绿宝石毁坏|绿宝石毁荡|绿宝石迸裂|绿宝石之仪|绿宝石灾祸|绿宝石灾变)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 星极超流 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="true" Grouping="And">
@@ -774,8 +876,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="3 自动-星极脉冲|灵泉之炎" Id="63678ce1-4b0d-44c4-a708-c59d7583cdcc" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(星极脉冲|灵泉之炎)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="3 自动-星极脉冲|灵泉之炎" Id="94746f7a-0c69-4558-a1d8-4c70db359e21" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(星极脉冲|灵泉之炎)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 能量吸收" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="1000" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="Or">
@@ -796,8 +899,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="3 自动-豆子 迸裂" Id="45b748bf-916d-4e0e-8713-f9b45588d654" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:迸裂" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="3 自动-豆子 迸裂" Id="ed43b3b2-d3d8-4292-b32c-beeaf2b7ce7f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:迸裂" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 能量抽取" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="600" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="And">
@@ -828,8 +932,9 @@
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="58" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="3 自动-豆子 毁灭|毁坏|毁荡" Id="6b50adf0-7f5a-439f-aad7-a80421501ede" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="3 自动-豆子 毁灭|毁坏|毁荡" Id="ea3d1168-9428-428c-9715-22c8218bd378" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 能量吸收" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="600" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="Or">
@@ -846,8 +951,9 @@
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                   <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="58" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="5 黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变" Id="3538a0bf-0282-4951-ba27-a3280cc41306" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="5 黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变" Id="6825816b-b01c-4370-87d5-46a92b03ab08" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(黄宝石毁灭|黄宝石毁坏|黄宝石毁荡|黄宝石迸裂|黄宝石之仪|黄宝石灾祸|黄宝石灾变)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 绿宝石召唤 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="true" Grouping="And">
@@ -919,8 +1025,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="5 红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变" Id="17fbb982-b845-42c9-b9d9-a452f2466217" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="5 红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变" Id="18a7d058-d8f3-4785-a6dd-0202f6a93030" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石毁灭|红宝石毁坏|红宝石毁荡|红宝石迸裂|红宝石之仪|红宝石灾祸|红宝石灾变)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 星极超流 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="true" Grouping="And">
@@ -1007,8 +1114,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="5.5 深红旋风|深红强袭" Id="7bec20c2-cd5f-48b5-80ae-dd3431680f38" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(深红旋风|深红强袭)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="5.5 深红旋风|深红强袭" Id="a47804c0-53ab-4eeb-8c06-db57a96cac0a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(深红旋风|深红强袭)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 黄宝石召唤 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="true" Grouping="And">
@@ -1099,8 +1207,9 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="5.5 螺旋气流" Id="5c1e5bec-75d9-443d-93b5-07d181b4a02b" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:螺旋气流" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="5.5 螺旋气流" Id="8d5a9166-0a3b-4924-b6e9-e9273ec597d2" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:螺旋气流" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 黄宝石召唤 ${var:召唤单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                     <Condition Enabled="true" Grouping="And">
@@ -1167,8 +1276,9 @@
                 <Condition Enabled="true" Grouping="And">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="0 自动-灼热之光（在毁荡和三灾gcd插入，非标准60s轴可能会无法对齐龙神召唤）" Id="ef663f39-9f52-4c74-a75a-662b32113997" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡|迸裂|三重灾祸)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="0 自动-灼热之光（在毁荡和三灾gcd插入，非标准60s轴可能会无法对齐龙神召唤）" Id="e630b8aa-953e-416b-aed4-aa7052794298" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(毁灭|毁坏|毁荡|迸裂|三重灾祸)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 灼热之光" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="500" RefireInterrupt="True">
                     <Condition Enabled="true" Grouping="And">
@@ -1202,8 +1312,9 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
-              <Trigger Enabled="true" Name="0 自动-火神阶段即刻咏唱" Id="5280bb20-70a8-4e64-b091-26e2bbf96c1f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤Ⅱ)" PrevActions="Interrupt">
+              <Trigger Enabled="true" Name="0 自动-火神阶段即刻咏唱" Id="38e954b5-2476-409f-8ece-79f4fee5e941" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(红宝石召唤|火神召唤|火神召唤Ⅱ)" PrevActions="Interrupt">
                 <Actions>
                   <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/ac 即刻咏唱" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="1000" RefireInterrupt="True">
                     <Condition Enabled="false" Grouping="Or" />
@@ -1212,17 +1323,18 @@
                 <Condition Enabled="true" Grouping="Or">
                   <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                 </Condition>
+                <Conditions />
               </Trigger>
             </Triggers>
           </Folder>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="137438953472" Id="12974df6-02bd-4aa6-8784-5a27f72b7cff" Name="舞者" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="137438953472" Id="7077a4b9-4da6-4503-a56d-0684d509f7a5" Name="舞者" Enabled="true">
             <Folders>
-              <Folder Id="f6d7b51b-dbe2-401f-86e4-c21f4170a2ac" Name="群体" Enabled="true">
+              <Folder Id="3b3092d7-8ddd-41ec-b174-1dab92ef6470" Name="群体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="1风车" Id="1a255618-48c2-46d8-adbc-a1aa547ca276" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:风车" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1风车" Id="55670899-751a-4dd5-9678-2fda87fd73ab" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:风车" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="3ea3efae-7721-4c8c-b621-a9547447dd40" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="2416d634-4353-4311-a167-086781e2f70a" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="单体" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
@@ -1253,10 +1365,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2落刃雨" Id="7c367c2a-40e7-48d5-ab9d-441a3af8fc57" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:落刃雨" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2落刃雨" Id="901a5987-58da-4d83-9ad0-567ca5538c53" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:落刃雨" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="1a255618-48c2-46d8-adbc-a1aa547ca276" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="55670899-751a-4dd5-9678-2fda87fd73ab" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风车&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -1269,13 +1382,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="342b7134-354a-4245-8efa-c8308bc1bc8f" Name="进攻之探戈-提拉纳-流星舞" Enabled="true">
+              <Folder Id="23057eac-1b05-44da-8cc8-b7543ad75d0d" Name="进攻之探戈-提拉纳-流星舞" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="进攻之探戈" Id="855d950b-5ec1-417e-a1a6-1499e999f53e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:进攻之探戈" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="进攻之探戈" Id="9d865652-733b-4918-b5bf-84fe66da1783" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:进攻之探戈" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;技巧舞步&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" Asynchronous="False" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="Or">
@@ -1303,8 +1417,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="流星舞" Id="227bd963-4186-4973-b60c-30deb540a054" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:流星舞" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="流星舞" Id="20144437-ae50-4f49-b7c4-a1b29ca7a4c9" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:流星舞" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -1379,8 +1494,9 @@
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:提拉纳预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="进攻之探戈2" Id="7dd52505-19e1-4be2-9f00-8ae8fc233a7d" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:进攻之探戈" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="进攻之探戈2" Id="7825e21e-7f9c-4d52-b47a-60db8d7a6918" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:进攻之探戈" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -1456,8 +1572,9 @@
                       <ConditionSingle Enabled="true" ExpressionL="${var:提拉纳预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                       <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="90" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="流星舞2" Id="43a406fa-baff-4caa-961c-778eacf6e22e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:流星舞" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="流星舞2" Id="641d62c0-bfbe-47c4-9a1f-c18c8b1e6d0f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:流星舞" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;技巧舞步&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1470,8 +1587,9 @@
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:提拉纳预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="提拉纳" Id="06548c8f-54cb-45ef-9f13-a1edab22ee67" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:提拉纳" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="提拉纳" Id="40fd639a-62e3-4369-a1e7-a968ffa1847a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:提拉纳" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -1546,8 +1664,9 @@
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:流星舞预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="提拉纳2" Id="642dee37-2099-4f11-9bfa-9b91d39259a6" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:提拉纳" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="提拉纳预备 off2" Id="4d041e0d-74b9-4595-a53e-941825310c84" RegularExpression="^.{14} StatusRemove 1E:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;流星舞&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1560,13 +1679,198 @@
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:流星舞预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="提拉纳预备 off" Id="ae7aa53e-986e-423c-860b-5a8196b90ab6" RegularExpression="^.{14} StatusRemove 1E:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:单体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;喷泉&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:单体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风车&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:群体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;落刃雨&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:群体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;逆瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="6" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;坠喷泉&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;升风车&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="8" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;落血雨&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:流星舞预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="提拉纳2" Id="014d325b-b920-40b6-8221-da96a5afe11e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:提拉纳" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;流星舞&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;流星舞&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:流星舞预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="流星舞预备 off" Id="4efd5726-99cf-44b5-854e-25815c8b28bf" RegularExpression="^.{14} StatusRemove 1E:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:单体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;喷泉&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:单体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风车&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:群体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;落刃雨&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="And">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:群体}" ExpressionTypeL="Numeric" ExpressionR="2" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionGroup Enabled="true" Grouping="And">
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                            <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                          </ConditionGroup>
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;逆瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="6" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;坠喷泉&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;升风车&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="8" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;落血雨&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerForce="regexp,conditions" ActionType="NamedCallback">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                          <ConditionSingle Enabled="true" ExpressionL="${var:非对称投掷·百花争艳}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                        </Condition>
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:提拉纳预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericNotEqual" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="流星舞预备 off2" Id="ae5a4fec-23a2-4366-8d2a-4d0d3e0ff9d9" RegularExpression="^.{14} StatusRemove 1E:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;技巧舞步&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;技巧舞步&quot; ${var:舞者群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${var:提拉纳预备}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
+                    </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="c76a9098-b80d-4eb2-af6c-da5fb17f1b8a" Name="var" Enabled="true">
+              <Folder Id="347f13dc-581d-45f5-8366-0a491cd6d1a5" Name="var" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="对称投掷 on" Id="6570def6-6db9-4e5b-a4de-479ac912f9d2" RegularExpression="^.{14} StatusAdd 1A:[^:]+:对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="对称投掷 on" Id="83150fee-78e5-4ede-b241-a8ea8ae316cb" RegularExpression="^.{14} StatusAdd 1A:[^:]+:对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="对称投掷" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1575,8 +1879,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="对称投掷·百花争艳 on" Id="d2669b24-3d01-456d-9bbb-c647d9902e57" RegularExpression="^.{14} StatusAdd 1A:[^:]+:对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="对称投掷·百花争艳 on" Id="04a78841-0421-4393-9954-7dd567c402cf" RegularExpression="^.{14} StatusAdd 1A:[^:]+:对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="对称投掷·百花争艳" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1585,8 +1890,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="非对称投掷 on" Id="6a202c60-72b3-461d-8d57-d3333ca34e79" RegularExpression="^.{14} StatusAdd 1A:[^:]+:非对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="非对称投掷 on" Id="e2714f06-6dde-4132-bf92-582c6e63f681" RegularExpression="^.{14} StatusAdd 1A:[^:]+:非对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="非对称投掷" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1595,8 +1901,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="非对称投掷·百花争艳 on" Id="4ea8f789-a23f-4135-9932-31a2a9d7dfe3" RegularExpression="^.{14} StatusAdd 1A:[^:]+:非对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="非对称投掷·百花争艳 on" Id="ae37579b-199a-4b7d-87a9-b07cb7d4d8b0" RegularExpression="^.{14} StatusAdd 1A:[^:]+:非对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="非对称投掷·百花争艳" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1605,8 +1912,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="对称投掷 off" Id="90c72761-0eaf-4abf-a3fb-a7d1eea072d3" RegularExpression="^.{14} StatusRemove 1E:[^:]+:对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="对称投掷 off" Id="41828853-6606-49f6-bae5-ebc95c00a5d9" RegularExpression="^.{14} StatusRemove 1E:[^:]+:对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="对称投掷" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1615,8 +1923,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="对称投掷·百花争艳 off" Id="a104e36a-821e-406f-96d4-c1d7891afa0e" RegularExpression="^.{14} StatusRemove 1E:[^:]+:对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="对称投掷·百花争艳 off" Id="f22ce9f7-7bb7-4b7c-a5c3-73599df8b448" RegularExpression="^.{14} StatusRemove 1E:[^:]+:对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="对称投掷·百花争艳" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1625,8 +1934,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="非对称投掷 off" Id="6bcf7cf1-6b55-42d2-a374-032ca5b9daab" RegularExpression="^.{14} StatusRemove 1E:[^:]+:非对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="非对称投掷 off" Id="3c618551-729c-4a3e-8338-80f9cdabb218" RegularExpression="^.{14} StatusRemove 1E:[^:]+:非对称投掷:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="非对称投掷" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1635,8 +1945,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="非对称投掷·百花争艳 off" Id="d764d94c-ef32-4562-ae9f-9192df411184" RegularExpression="^.{14} StatusRemove 1E:[^:]+:非对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="非对称投掷·百花争艳 off" Id="2fe12c78-aa7d-4808-a741-be5dab1ffa8c" RegularExpression="^.{14} StatusRemove 1E:[^:]+:非对称投掷·百花争艳:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="非对称投掷·百花争艳" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1645,8 +1956,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="流星舞预备 on" Id="a137aad0-726a-4daf-b69a-b041bfd7672f" RegularExpression="^.{14} StatusAdd 1A:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="流星舞预备 on" Id="b36d2866-16f3-4da0-80fe-66c47ef16894" RegularExpression="^.{14} StatusAdd 1A:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="流星舞预备" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1655,8 +1967,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="提拉纳预备 on" Id="0a0306c2-2f20-4896-9764-7988229d93d0" RegularExpression="^.{14} StatusAdd 1A:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="提拉纳预备 on" Id="70b78440-1bf3-4543-9388-408e45eff6ee" RegularExpression="^.{14} StatusAdd 1A:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="提拉纳预备" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1665,8 +1978,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="提拉纳预备 off" Id="dcc10b35-5b28-43cb-863d-ca934b873db0" RegularExpression="^.{14} StatusRemove 1E:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="提拉纳预备 off" Id="55941e04-623e-496d-8021-84bb564eb73e" RegularExpression="^.{14} StatusRemove 1E:[^:]+:提拉纳预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="提拉纳预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1675,8 +1989,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="流星舞预备 off" Id="b6085c62-64f7-451a-90f6-a956be326ebb" RegularExpression="^.{14} StatusRemove 1E:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="流星舞预备 off" Id="3bd8460b-72dd-4666-9495-bfa717e8ea6d" RegularExpression="^.{14} StatusRemove 1E:[^:]+:流星舞预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="流星舞预备" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1685,15 +2000,16 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="98e25078-d566-4f9d-b065-f5738c5b580f" Name="单体" Enabled="true">
+              <Folder Id="70d62253-e100-4a1f-afec-2f12f92cfb89" Name="单体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="1瀑泻" Id="3ea3efae-7721-4c8c-b621-a9547447dd40" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:瀑泻" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1瀑泻" Id="2416d634-4353-4311-a167-086781e2f70a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:瀑泻" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="1a255618-48c2-46d8-adbc-a1aa547ca276" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="55670899-751a-4dd5-9678-2fda87fd73ab" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="群体" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
@@ -1724,10 +2040,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2喷泉" Id="a60d84e4-80c5-47f6-84e3-db27ff6c6eba" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:喷泉" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2喷泉" Id="9a6fac1c-ac11-4ae2-bce6-e890eb2e9a70" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:喷泉" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="3ea3efae-7721-4c8c-b621-a9547447dd40" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="2416d634-4353-4311-a167-086781e2f70a" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -1740,13 +2057,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="08f146f9-e40d-433e-9df2-e83cf71f9b82" Name="触发" Enabled="true">
+              <Folder Id="771d95ae-35da-4fed-9f99-4c074cb47c12" Name="触发" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="off" Id="64058767-d8c7-4524-a748-a770ef413083" RegularExpression="^.{14} StatusRemove 1E:[^:]+:(对称投掷|非对称投掷|对称投掷·百花争艳|非对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="off" Id="951870c7-1257-4ce0-af13-50fed33081cd" RegularExpression="^.{14} StatusRemove 1E:[^:]+:(对称投掷|非对称投掷|对称投掷·百花争艳|非对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="100" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -1820,8 +2138,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="对称投掷 on" Id="ae4960d3-1653-44b1-b3ab-e42f53131509" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(对称投掷|对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="对称投掷 on" Id="b4936876-fdec-4766-93e2-0a3e0a0426d6" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(对称投掷|对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;逆瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1833,8 +2152,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="非对称投掷 on" Id="69e66f16-f8ff-4096-b5ab-2235147e3f14" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(非对称投掷|非对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="非对称投掷 on" Id="31cea744-b6af-4257-9ce2-c4fcbd8e2951" RegularExpression="^.{14} StatusAdd 1A:[^:]+:(非对称投掷|非对称投掷·百花争艳):[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;坠喷泉&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="50" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1846,13 +2166,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="7d8874c7-9800-4523-880f-135611b8609b" Name="标准舞步" Enabled="true">
+              <Folder Id="3f027c3a-94a5-4ea2-aefd-632b39121de5" Name="标准舞步" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="标准舞步 end" Id="2bb4cf9c-db1d-4fea-9d11-06b208642c5b" RegularExpression="^.{14} Gauge 1F:.{8}:(?&lt;s1&gt;[1-4])[^:]*:20{5}(?&lt;s2&gt;[1-4]):">
+                  <Trigger Enabled="true" Name="标准舞步 end" Id="88826795-ff5f-4c19-98a0-eb3ef7490528" RegularExpression="^.{14} Gauge 1F:.{8}:(?&lt;s1&gt;[1-4])[^:]*:20{5}(?&lt;s2&gt;[1-4]):">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;标准舞步&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1862,8 +2183,9 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="标准舞步" Id="4e42c23f-5f9c-49a0-aad6-7526e3ed00e2" RegularExpression="^.{14} Gauge 1F:.{8}:((?&lt;step&gt;[1-4])[^:]*:0[1-4]:|[1-4][^:]*:10{5}(?&lt;step&gt;[1-4]):)">
+                  <Trigger Enabled="true" Name="标准舞步" Id="97493832-45ef-4007-9c07-7135c612d9bb" RegularExpression="^.{14} Gauge 1F:.{8}:((?&lt;step&gt;[1-4])[^:]*:0[1-4]:|[1-4][^:]*:10{5}(?&lt;step&gt;[1-4]):)">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="true" Grouping="Or">
@@ -1907,8 +2229,9 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="标准舞步 off" Id="f5d16c98-6e53-4f22-bfbe-1013e2e34799" RegularExpression="^.{14} StatusRemove 1E:[^:]+:标准舞步:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="标准舞步 off" Id="df5d3e54-1326-48d1-a622-7f2f6c7c53da" RegularExpression="^.{14} StatusRemove 1E:[^:]+:标准舞步:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -1982,13 +2305,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="f8d93336-77a7-4552-b505-b0bb55772427" Name="技巧舞步" Enabled="true">
+              <Folder Id="43688d0c-73a6-4023-a5c6-c38e52521589" Name="技巧舞步" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="技巧舞步 end" Id="d744d721-e7aa-455c-a912-0151abc8804b" RegularExpression="^.{14} Gauge 1F:.{8}:[^:]*:4[0-4]{6}:">
+                  <Trigger Enabled="true" Name="技巧舞步 end" Id="b6423b9f-a3d5-4ff0-b1cc-7d30ddeee86e" RegularExpression="^.{14} Gauge 1F:.{8}:[^:]*:4[0-4]{6}:">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;技巧舞步&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -1998,8 +2322,9 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="技巧舞步" Id="f66fd4b8-e55c-4232-9b59-e37b67658688" RegularExpression="^.{14} Gauge 1F:.{8}:((?&lt;step&gt;[1-4])[^:]*:[1-4]0[1-4]0[1-4]:|[1-4][^:]*:10[1-4]0[1-4]0(?&lt;step&gt;[1-4]):|[1-4][^:]*:20[1-4]0(?&lt;step&gt;[1-4])0[1-4]:|[1-4][^:]*:30(?&lt;step&gt;[1-4])0[1-4]0[1-4]:)">
+                  <Trigger Enabled="true" Name="技巧舞步" Id="055f77bb-3185-4d55-b400-603c9c6db6f2" RegularExpression="^.{14} Gauge 1F:.{8}:((?&lt;step&gt;[1-4])[^:]*:[1-4]0[1-4]0[1-4]:|[1-4][^:]*:10[1-4]0[1-4]0(?&lt;step&gt;[1-4]):|[1-4][^:]*:20[1-4]0(?&lt;step&gt;[1-4])0[1-4]:|[1-4][^:]*:30(?&lt;step&gt;[1-4])0[1-4]0[1-4]:)">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;瀑泻&quot; ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="true" Grouping="Or">
@@ -2043,8 +2368,9 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="技巧舞步 off" Id="58bf862b-002f-46fb-b271-2e60658dab48" RegularExpression="^.{14} StatusRemove 1E:[^:]+:技巧舞步:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="技巧舞步 off" Id="ee3684c2-a3ab-49a7-b06f-0ceca715d576" RegularExpression="^.{14} StatusRemove 1E:[^:]+:技巧舞步:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 进攻之探戈 ${var:舞者单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2056,18 +2382,19 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
             </Folders>
             <Triggers />
           </Folder>
-          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="8589934592" Id="88fde70f-081a-4f92-93c3-97f1c8d17d9d" Name="武士" Enabled="true">
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="8589934592" Id="d5f70f3c-45ec-436d-8902-718de21adbb0" Name="武士" Enabled="true">
             <Folders>
-              <Folder Id="5f4e2516-3173-4b92-add9-fa63c8ea6f87" Name="var" Enabled="true">
+              <Folder Id="8024f2fe-ecb5-44ea-b6b6-4f322998fc6e" Name="var" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="闪" Id="fba4abd8-a16f-45e3-8277-479bf1084ab3" RegularExpression="^.{14} Gauge 1F:.{8}:22:((?&lt;sen&gt;[0-7])0)?(?&lt;med&gt;[0-3]?).{2}:">
+                  <Trigger Enabled="true" Name="闪" Id="746a5657-994f-42ae-a7cf-f18890922101" RegularExpression="^.{14} Gauge 1F:.{8}:22:((?&lt;sen&gt;[0-7])0)?(?&lt;med&gt;[0-3]?).{2}:">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="花闪" VariableExpression="floor(${sen}/4)%2" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2080,8 +2407,9 @@
                       </Action>
                     </Actions>
                     <Condition Enabled="false" Grouping="Or" />
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="风花" Id="a5e8a51d-d0f3-46cf-adc5-88c3aa2d3f5c" RegularExpression="^.{14} StatusAdd 1A:[^:]+:风花:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="风花" Id="224c1eef-4e42-44b8-a3e0-97d8ad4d36e9" RegularExpression="^.{14} StatusAdd 1A:[^:]+:风花:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="风花" VariableExpression="40000+${_timestampms}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2090,8 +2418,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="风月" Id="c3a6aeef-4407-4d4e-84b7-91c0337f9e5d" RegularExpression="^.{14} StatusAdd 1A:[^:]+:风月:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="风月" Id="b500713d-9c02-4ec6-a421-8b2b03b9c5db" RegularExpression="^.{14} StatusAdd 1A:[^:]+:风月:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableOp="SetNumeric" VariableName="风月" VariableExpression="40000+${_timestampms}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2100,8 +2429,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="清空闪" Id="fe2c6bf2-3633-4c47-90e2-d0643f35bfb3" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:*(彼岸花|天下五剑|纷乱雪月花)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="清空闪" Id="de72cb80-e02c-4aca-a3bc-e2fe64ed9b03" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:*(彼岸花|天下五剑|纷乱雪月花)" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" VariableName="花闪" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2116,15 +2446,16 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="15544ef2-b021-4c1e-a43d-5507ff2e44cc" Name="单体" Enabled="true">
+              <Folder Id="985210ae-078b-45f0-b0ea-145c39f93e98" Name="单体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="2阵风" Id="c9438fe8-e84f-4ffa-8fe7-4f08254e0860" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:阵风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2阵风" Id="54406e7a-ee9d-4986-be95-460712ffcbe8" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:阵风" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="dc871700-04df-4d11-8a7f-beba330c3463" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;月光&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -2151,10 +2482,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3月光" Id="7485b450-643f-4d5a-9493-e18b3f8edb35" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:月光" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="3月光" Id="1d689ecf-1f11-47b4-ae5a-2c891bc75968" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:月光" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c9438fe8-e84f-4ffa-8fe7-4f08254e0860" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="54406e7a-ee9d-4986-be95-460712ffcbe8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;刃风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="10" RefireInterrupt="True">
@@ -2164,10 +2496,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3雪风" Id="c17dfb3d-ee10-42de-873d-51c6e020cbbe" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:雪风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="3雪风" Id="f8528189-fbf5-4d03-ad65-219640c28392" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:雪风" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="dc871700-04df-4d11-8a7f-beba330c3463" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;刃风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="10" RefireInterrupt="True">
@@ -2177,10 +2510,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="3花车" Id="402a9aeb-6132-4923-a598-e71068df56b2" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:花车" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="3花车" Id="ba283f6d-5f0e-460b-9353-e91bebc97bc7" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:花车" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="630b8b42-c9ae-4380-be00-49bc957949ca" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="3c6a4b8e-129b-4fb2-9fa9-90b01742533d" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;刃风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="10" RefireInterrupt="True">
@@ -2190,10 +2524,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2士风" Id="630b8b42-c9ae-4380-be00-49bc957949ca" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:士风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2士风" Id="3c6a4b8e-129b-4fb2-9fa9-90b01742533d" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:士风" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="dc871700-04df-4d11-8a7f-beba330c3463" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;花车&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -2220,8 +2555,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="1刃风" Id="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:刃风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1刃风" Id="dc871700-04df-4d11-8a7f-beba330c3463" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:刃风" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;雪风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -2400,10 +2736,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="0刃风" Id="ccc93b81-b7e1-4af3-b08b-a95e4cb53a54" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:刃风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="0刃风" Id="9e6d6f18-d158-4e96-a4ad-ce57a7dfec56" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:刃风" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="87a2fb70-fd79-4f54-a924-4751590aa70d" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="6016e055-ba3c-4339-a624-a5ce0799bdf3" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风雅&quot; ${var:武士群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -2413,30 +2750,31 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="ee2e95bf-7b04-4d68-8ff1-5d827a5484a6" Name="明镜止水" Enabled="true">
+              <Folder Id="fc6a0382-d809-413d-b6a1-704dddf77ebd" Name="明镜止水" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="明镜止水on" Id="8b4d66a9-2df5-4b66-908a-45efeff1fd80" RegularExpression="^.{14} StatusAdd 1A:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="明镜止水on" Id="703e0584-fe43-433b-833c-b1acc58ef4d4" RegularExpression="^.{14} StatusAdd 1A:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="dc871700-04df-4d11-8a7f-beba330c3463" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="630b8b42-c9ae-4380-be00-49bc957949ca" ActionType="Trigger">
+                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="3c6a4b8e-129b-4fb2-9fa9-90b01742533d" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c9438fe8-e84f-4ffa-8fe7-4f08254e0860" ActionType="Trigger">
+                      <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="54406e7a-ee9d-4986-be95-460712ffcbe8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="4" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="402a9aeb-6132-4923-a598-e71068df56b2" ActionType="Trigger">
+                      <Action OrderNumber="4" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="ba283f6d-5f0e-460b-9353-e91bebc97bc7" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="5" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c17dfb3d-ee10-42de-873d-51c6e020cbbe" ActionType="Trigger">
+                      <Action OrderNumber="5" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="f8528189-fbf5-4d03-ad65-219640c28392" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="6" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="7485b450-643f-4d5a-9493-e18b3f8edb35" ActionType="Trigger">
+                      <Action OrderNumber="6" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="1d689ecf-1f11-47b4-ae5a-2c891bc75968" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="7" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;花车&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="100" RefireInterrupt="True">
@@ -2512,8 +2850,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="明镜止水off" Id="61062273-81c4-468d-8a28-deea02f9961d" RegularExpression="^.{14} StatusRemove 1E:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="明镜止水off" Id="14172502-eda5-4e17-963c-399136b729be" RegularExpression="^.{14} StatusRemove 1E:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;刃风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2522,21 +2861,22 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="cb26b684-f9d1-4ea8-a70f-0c8e5887cc23" Name="群体" Enabled="true">
+              <Folder Id="1627763c-1a8e-4523-9249-36a463f6e622" Name="群体" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="1风雅" Id="87a2fb70-fd79-4f54-a924-4751590aa70d" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(风雅|风光)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="1风雅" Id="6016e055-ba3c-4339-a624-a5ce0799bdf3" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(风雅|风光)" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="382e0cb8-6cf2-43a6-9d09-c175ec5cf14e" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="dc871700-04df-4d11-8a7f-beba330c3463" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="630b8b42-c9ae-4380-be00-49bc957949ca" ActionType="Trigger">
+                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="3c6a4b8e-129b-4fb2-9fa9-90b01742533d" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
-                      <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="c9438fe8-e84f-4ffa-8fe7-4f08254e0860" ActionType="Trigger">
+                      <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="54406e7a-ee9d-4986-be95-460712ffcbe8" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;刃风&quot; ${var:武士单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
@@ -2568,10 +2908,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2满月" Id="1a34f967-4bdf-4478-95dc-b92190e36eca" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:满月" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2满月" Id="81123093-a9ff-4369-9225-8f27c463530a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:满月" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="87a2fb70-fd79-4f54-a924-4751590aa70d" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="6016e055-ba3c-4339-a624-a5ce0799bdf3" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风雅&quot; ${var:武士群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="10" RefireInterrupt="True">
@@ -2581,10 +2922,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="2樱花" Id="35970ca3-9c33-4605-9de6-bbc49feeadb4" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:樱花" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="2樱花" Id="f86fa5de-23f6-43b1-a6dd-54eaa668121a" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:樱花" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="87a2fb70-fd79-4f54-a924-4751590aa70d" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="6016e055-ba3c-4339-a624-a5ce0799bdf3" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;风雅&quot; ${var:武士群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="10" RefireInterrupt="True">
@@ -2594,13 +2936,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="44cc66f6-72ea-44ef-a63a-9a3c30cc740b" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
+              <Folder Id="5827aebb-937a-4bf7-8939-c7801be627aa" Name="语音提醒（可手动选择开启或关闭）" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="彼岸花（续dot提醒）" Id="884af0de-eb94-4e93-ae0f-92abf44880d7" RegularExpression="^.{14} StatusAdd 1A:[^:]+:彼岸花:(?&lt;time&gt;[^:]+?):.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="彼岸花（续dot提醒）" Id="8ce1e3c8-4061-4c8b-a173-6ad641aa1414" RegularExpression="^.{14} StatusAdd 1A:[^:]+:彼岸花:(?&lt;time&gt;[^:]+?):.{8}:(?&lt;player&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" UseTTSTextExpression="续dot" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="50000">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2609,8 +2952,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="侧面" Id="e6cc5f1a-2350-4759-88ee-fbe49dee6adb" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:士风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="侧面" Id="175800f9-a1ac-4924-94e8-d724ea3c73a5" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:士风" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;花车&quot; 1 1 " UseTTSTextExpression="侧面" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="Or">
@@ -2621,8 +2965,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="背面" Id="b7963d6e-bdef-497e-998a-30baf800d6a4" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:阵风" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="背面" Id="ac2aad6f-583a-4ee8-abc4-a9abdbd8f87f" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:阵风" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;月光&quot; 1 1 " UseTTSTextExpression="背面" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="Or">
@@ -2633,8 +2978,9 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="明镜止水 身位" Id="941399dc-b728-40f8-8417-dc41ec974f74" RegularExpression="^.{14} StatusAdd 1A:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="明镜止水 身位" Id="6c152d8c-679c-4867-85f2-08375d4879dc" RegularExpression="^.{14} StatusAdd 1A:[^:]+:明镜止水:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set &quot;花车&quot; 1 1 " UseTTSTextExpression="侧面" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="UseTTS" ExecutionDelayExpression="100" RefireInterrupt="True">
                         <Condition Enabled="true" Grouping="And">
@@ -2671,13 +3017,14 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
-              <Folder Id="28321b50-e9aa-436f-9907-3a257efe26a3" Name="意气冲天-奥义斩浪" Enabled="true">
+              <Folder Id="a0c74069-2e9c-4165-b990-4443bb2af920" Name="意气冲天-奥义斩浪" Enabled="true">
                 <Folders />
                 <Triggers>
-                  <Trigger Enabled="true" Name="意气冲天" Id="59840b8a-fd45-487e-b3aa-0af0b8fb5f82" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(回返斩浪|刃风|士风|阵风|花车|雪风|月光|风雅|满月|樱花|燕飞|彼岸花|天下五剑|纷乱雪月花)" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="意气冲天" Id="399aa3c1-0ac8-4761-98d3-349c7ad8bbee" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(回返斩浪|刃风|士风|阵风|花车|雪风|月光|风雅|满月|樱花|燕飞|彼岸花|天下五剑|纷乱雪月花)" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 意气冲天 ${var:奥义斩浪}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2690,8 +3037,9 @@
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                       <ConditionSingle Enabled="true" ExpressionL="${var:回返斩浪}" ExpressionTypeL="Numeric" ExpressionR="1" ExpressionTypeR="Numeric" ConditionType="NumericEqual" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="奥义斩浪预备 on" Id="7a8ebf5b-532b-4ebb-b0ca-0158642017bb" RegularExpression="^.{14} StatusAdd 1A:[^:]+:奥义斩浪预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="奥义斩浪预备 on" Id="e2c9ccee-52ef-4fd9-be73-14c8a1557726" RegularExpression="^.{14} StatusAdd 1A:[^:]+:奥义斩浪预备:[^:]+:.{8}:(?&lt;player&gt;[^:]+?):.{8}:[^:]+:(?&lt;count&gt;[^:]+?):" PrevActions="Interrupt">
                     <Actions>
                       <Action OrderNumber="1" NamedCallbackName="command" NamedCallbackParam="/hotbar set 奥义斩浪 ${var:奥义斩浪}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback">
                         <Condition Enabled="false" Grouping="Or" />
@@ -2703,10 +3051,11 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
                   </Trigger>
-                  <Trigger Enabled="true" Name="奥义斩浪" Id="13233350-b130-44be-899d-121e1c8a343e" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:奥义斩浪" PrevActions="Interrupt">
+                  <Trigger Enabled="true" Name="奥义斩浪" Id="5d61a608-8061-411d-9c45-6a9ac2898870" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:奥义斩浪" PrevActions="Interrupt">
                     <Actions>
-                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="7a8ebf5b-532b-4ebb-b0ca-0158642017bb" ActionType="Trigger">
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="e2c9ccee-52ef-4fd9-be73-14c8a1557726" ActionType="Trigger">
                         <Condition Enabled="false" Grouping="Or" />
                       </Action>
                       <Action OrderNumber="2" VariableOp="SetNumeric" VariableName="回返斩浪" VariableExpression="1" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="Variable">
@@ -2716,6 +3065,126 @@
                     <Condition Enabled="true" Grouping="Or">
                       <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
                     </Condition>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+            </Folders>
+            <Triggers />
+          </Folder>
+          <Folder FFXIVJobFilterEnabled="True" FFXIVJobFilter="274877906944" Id="296847c5-7098-4e3e-bb0e-38d6de908c92" Name="镰刀" Enabled="true">
+            <Folders>
+              <Folder Id="f4cd98af-5a53-4c0a-9564-1671b1faa059" Name="单体" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="单体1" Id="9c03a201-b0f1-4a2e-87a7-e2fb8c56e1d7" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="161b9268-9fc6-4d62-9bd0-bb92d266d9fe" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀群体1} ${var:镰刀群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体2} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:镰刀单体2等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体1} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:镰刀单体1}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="单体2" Id="ca1ce069-27a4-4bfc-b9eb-e096d58914aa" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="9c03a201-b0f1-4a2e-87a7-e2fb8c56e1d7" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体3} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:镰刀单体3等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体1} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:镰刀单体3等级}" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体1} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:镰刀单体2}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="单体3" Id="190d314d-a611-4e3b-929b-f5db03e5f7c3" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="ca1ce069-27a4-4bfc-b9eb-e096d58914aa" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体1} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:镰刀单体3}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                </Triggers>
+              </Folder>
+              <Folder Id="ee4b5665-2593-4947-adcc-846d9e791689" Name="群体" Enabled="true">
+                <Folders />
+                <Triggers>
+                  <Trigger Enabled="true" Name="群体1" Id="161b9268-9fc6-4d62-9bd0-bb92d266d9fe" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="9c03a201-b0f1-4a2e-87a7-e2fb8c56e1d7" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="ca1ce069-27a4-4bfc-b9eb-e096d58914aa" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀单体1} ${var:镰刀单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀群体2} ${var:镰刀群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="true" Grouping="Or">
+                          <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:镰刀群体2等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                        </Condition>
+                      </Action>
+                      <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀群体1} ${var:镰刀群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:镰刀群体1}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
+                  </Trigger>
+                  <Trigger Enabled="true" Name="群体2" Id="46c48f23-8572-4215-9c52-0b90764ffe46" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                    <Actions>
+                      <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="161b9268-9fc6-4d62-9bd0-bb92d266d9fe" ActionType="Trigger">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                      <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:镰刀群体1} ${var:镰刀群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                        <Condition Enabled="false" Grouping="Or" />
+                      </Action>
+                    </Actions>
+                    <Condition Enabled="true" Grouping="And">
+                      <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                      <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:镰刀群体2}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                    </Condition>
+                    <Conditions />
                   </Trigger>
                 </Triggers>
               </Folder>
@@ -2725,53 +3194,181 @@
         </Folders>
         <Triggers />
       </Folder>
+      <Folder Id="c35abd9a-adeb-46b4-af47-701ae9254cd9" Name="0模板" Enabled="true">
+        <Folders>
+          <Folder Id="8c02393b-7b5e-450a-ad9f-adf10f0f20c9" Name="单体" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="单体1" Id="5bac2c90-30e4-452e-9150-6a7c79ddf656" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                <Actions>
+                  <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="55baa0f7-bba0-4008-b3df-4ca4e4b8e22d" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板群体1} ${var:模板群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体2} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:模板单体2等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体1} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:模板单体1}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="单体2" Id="bbaa393c-f5f0-44a4-bf6b-03d4c4a483c7" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                <Actions>
+                  <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="5bac2c90-30e4-452e-9150-6a7c79ddf656" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体3} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:模板单体3等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体1} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:模板单体3等级}" ExpressionTypeR="Numeric" ConditionType="NumericLess" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体1} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:模板单体2}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="单体3" Id="f41c4951-318b-4e38-ac5d-a09421b931db" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                <Actions>
+                  <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="bbaa393c-f5f0-44a4-bf6b-03d4c4a483c7" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体1} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:模板单体3}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+          <Folder Id="a3fbd52a-677d-4079-8e2e-b70dffc03bc2" Name="群体" Enabled="true">
+            <Folders />
+            <Triggers>
+              <Trigger Enabled="true" Name="群体1" Id="55baa0f7-bba0-4008-b3df-4ca4e4b8e22d" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                <Actions>
+                  <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="5bac2c90-30e4-452e-9150-6a7c79ddf656" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="bbaa393c-f5f0-44a4-bf6b-03d4c4a483c7" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="3" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板单体1} ${var:模板单体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="4" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板群体2} ${var:模板群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="true" Grouping="Or">
+                      <ConditionSingle Enabled="true" ExpressionL="${_ffxivparty[${_ffxivplayer}].level}" ExpressionTypeL="Numeric" ExpressionR="${var:模板群体2等级}" ExpressionTypeR="Numeric" ConditionType="NumericGreaterEqual" />
+                    </Condition>
+                  </Action>
+                  <Action OrderNumber="5" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板群体1} ${var:模板群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" ExecutionDelayExpression="30000" Asynchronous="False" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:模板群体1}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+              <Trigger Enabled="true" Name="群体2" Id="e81a0598-ed66-4595-a3f7-c2454e25e87c" RegularExpression="^.{14} (ActionEffect 15|AOEActionEffect 16):.{8}:(?&lt;player&gt;[^:]+?):[^:]+:(?&lt;skill&gt;[^:]+?):" PrevActions="Interrupt">
+                <Actions>
+                  <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelTrigger" TriggerId="55baa0f7-bba0-4008-b3df-4ca4e4b8e22d" ActionType="Trigger">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                  <Action OrderNumber="2" NamedCallbackName="command" NamedCallbackParam="/hotbar set ${var:模板群体1} ${var:模板群体}" TextAuraFontSize="9" TextAuraFontName="宋体" ActionType="NamedCallback" RefireInterrupt="True">
+                    <Condition Enabled="false" Grouping="Or" />
+                  </Action>
+                </Actions>
+                <Condition Enabled="true" Grouping="And">
+                  <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                  <ConditionSingle Enabled="true" ExpressionL="${skill}" ExpressionTypeL="String" ExpressionR="${var:模板群体2}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
+                </Condition>
+                <Conditions />
+              </Trigger>
+            </Triggers>
+          </Folder>
+        </Folders>
+        <Triggers />
+      </Folder>
     </Folders>
     <Triggers>
-      <Trigger Enabled="true" Name="团灭重置" Id="0a8d6f20-9db9-468f-9a2d-e0d691b81fdc" RegularExpression="^.{14} \w+ 21:.{8}:4000001[026]" PrevActions="Interrupt">
+      <Trigger Enabled="true" Name="团灭重置" Id="214cb12d-c425-4424-9a73-0838bd1184ef" RegularExpression="^.{14} \w+ 21:.{8}:4000001[026]" PrevActions="Interrupt">
         <Actions>
           <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelAllTrigger" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="0d903e41-6f0d-44cd-bf2f-c96ed84f3db5" TriggerForce="regexp" ActionType="Trigger">
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3cd4661e-52fb-4efa-80d9-9868be3e10e3" TriggerForce="regexp" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
         <Condition Enabled="true" Grouping="Or">
           <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
         </Condition>
+        <Conditions />
       </Trigger>
-      <Trigger Enabled="true" Name="初始化变量" Id="0d903e41-6f0d-44cd-bf2f-c96ed84f3db5" RegularExpression="" PrevActions="Interrupt">
+      <Trigger Enabled="true" Name="初始化变量（如果新增了职业，要在此处添加）" Id="3cd4661e-52fb-4efa-80d9-9868be3e10e3" RegularExpression="" PrevActions="Interrupt">
         <Actions>
-          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="6f1150ab-851f-4e09-8b08-83f9ad286cb5" TriggerForce="regexp,conditions" ActionType="Trigger" Description="01触发战士" DescriptionOverride="True">
+          <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="fbd2a9f3-0afd-46f0-8b84-daba30595a17" TriggerForce="regexp,conditions" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="59e12ff9-cf0b-4fb6-a158-86a9c2d402b7" TriggerForce="regexp,conditions" ActionType="Trigger" Description="07触发占星" DescriptionOverride="True">
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="328f352f-d1c9-457c-acf8-29cabc59e9e6" TriggerForce="regexp,conditions" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="1ccfa4d8-9069-4692-a256-3343432ae640" TriggerForce="regexp,conditions" ActionType="Trigger" Description="12触发武士" DescriptionOverride="True">
+          <Action OrderNumber="3" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="55646cce-2290-4192-9e83-b2babf033bf4" TriggerForce="regexp,conditions" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="4" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="4ec9b079-d193-400a-b05a-720409b77c23" TriggerForce="regexp,conditions" ActionType="Trigger" Description="16触发舞者" DescriptionOverride="True">
+          <Action OrderNumber="4" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="22267bbc-15c7-4fc5-a8f4-bd68d386f219" TriggerForce="regexp,conditions" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="5" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="e5a57c9c-3363-47f5-b99a-d50123a4a8ca" TriggerForce="regexp,conditions" ActionType="Trigger" Description="18触发召唤" DescriptionOverride="True">
+          <Action OrderNumber="5" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="25ca4f0e-fc2b-4ac5-9197-7d8d6e788386" TriggerForce="regexp,conditions" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="6" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="6a7c6884-3bc2-4a73-bc2d-d17812f19b28" TriggerForce="regexp,conditions" ActionType="Trigger">
+            <Condition Enabled="false" Grouping="Or" />
+          </Action>
+          <Action OrderNumber="7" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="f844a3ed-a3cf-4079-8396-d38490de31d3" TriggerForce="regexp,conditions" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
         <Condition Enabled="false" Grouping="Or" />
+        <Conditions />
       </Trigger>
-      <Trigger Enabled="true" Name="切换职业" Id="619f4e3d-cfb5-4a4f-b6f1-a6c765bd6a76" RegularExpression="^.{14} ChatLog 00:0839::(?&lt;player&gt;[^:]+?)的职业转换成了“(?&lt;job&gt;[^:]+?)”" PrevActions="Interrupt">
+      <Trigger Enabled="true" Name="切换职业" Id="efd25801-a6f8-462e-b5af-8a8caff8ea21" RegularExpression="^.{14} ChatLog 00:0839::(?&lt;player&gt;[^:]+?)的职业转换成了“(?&lt;job&gt;[^:]+?)”" PrevActions="Interrupt">
         <Actions>
           <Action OrderNumber="1" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerOp="CancelAllTrigger" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
-          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="0d903e41-6f0d-44cd-bf2f-c96ed84f3db5" TriggerForce="regexp" ActionType="Trigger">
+          <Action OrderNumber="2" TextAuraFontSize="9" TextAuraFontName="宋体" TriggerId="3cd4661e-52fb-4efa-80d9-9868be3e10e3" TriggerForce="regexp" ActionType="Trigger">
             <Condition Enabled="false" Grouping="Or" />
           </Action>
         </Actions>
         <Condition Enabled="true" Grouping="Or">
           <ConditionSingle Enabled="true" ExpressionL="${player}" ExpressionTypeL="String" ExpressionR="${_ffxivplayer}" ExpressionTypeR="String" ConditionType="StringEqualNocase" />
         </Condition>
+        <Conditions />
       </Trigger>
     </Triggers>
   </ExportedFolder>
